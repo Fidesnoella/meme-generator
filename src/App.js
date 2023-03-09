@@ -1,7 +1,11 @@
+import Navbar from "./components/Layout/Navbar";
+import Meme from "./components/Meme";
+
 export default function App() {
   return (
     <>
-      <h1 className="text-center text-3xl">Meme Generator</h1>
+      <Navbar />
+      <Meme />
     </>
   );
 }
